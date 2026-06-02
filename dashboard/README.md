@@ -1,16 +1,50 @@
-# React + Vite
+# Internship Market Analyzer Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a full-stack application designed to analyze internship and job market data. It combines a Python-based backend for data processing with a React (Vite) frontend dashboard for visualization and interaction.
 
-Currently, two official plugins are available:
+The goal of this project is to explore trends in internship postings, analyze job-related datasets, and present insights in a simple and interactive way.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Interactive dashboard built with React and Vite
+- Data analysis using Python scripts
+- CSV-based dataset processing for job listings
+- Clean separation between frontend and backend logic
+- Expandable structure for future improvements such as filtering, charts, and predictions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+Frontend:
+- React (Vite)
+- JavaScript
+- HTML/CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Backend:
+- Python
+- Data analysis scripts
+
+Data:
+- CSV dataset of job/internship postings
+
+## Project Structure
+
+- dashboard/ : React frontend application
+- analysis/ : Python scripts for data processing
+- data/ : Dataset files
+- app.py : Backend entry point
+
+## How to Run
+
+### Frontend
+
+cd dashboard
+npm install
+npm run dev
+
+### Backend
+
+python app.py
+
+## Purpose
+
+This project was built to practice full-stack development and data analysis skills while working with real-world job market data. It demonstrates the ability to process data, build a backend system, and present results through a user-friendly interface.
